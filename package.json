@@ -1,0 +1,35 @@
+{
+  "name": "ci-cd-for-gitlab",
+  "version": "0.0.1",
+  "description": "CICD FOR GITLAB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "jest",
+    "build": "tsc",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2pai/github-actions-ci-cd-nodejs.git"
+  },
+  "author": "2pai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2pai/github-actions-ci-cd-nodejs/issues"
+  },
+  "homepage": "https://github.com/2pai/github-actions-ci-cd-nodejs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/jest": "^26.0.15",
+    "@types/supertest": "^2.0.10",
+    "jest": "^26.4.2",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.4.4"
+  }
+}
